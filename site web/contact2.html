@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <p id="pot">port<span>folio</span></p> 
+      <div >
+        <ul class="nav-links">
+            <li><a href="index.html">Accueille</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="projet.html">Projet</a></li>
+            <li><a href="contact2.html">Contact</a></li>
+        </ul>
+    </div>
+    <img src="img/menu.png" alt="menu hamb" class="menu-hamb" >
+    </header>
+    
+    <div class="corps">
+        <div class="haut"><h1>conctactez - Moi</h1>
+        <div class="bas">
+            <ul>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>    77665890</li><br>
+            <li><i class="fa fa-envelope-o" aria-hidden="true"></i>    djeneboukeita776@gmail.com</li><br>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i>    BAMAKO,  Mali</li><br>
+            <li><i class="fa fa-globe" aria-hidden="true"></i>     Djenebou.com</li>
+        </ul>
+        </div>
+        <div class="section-3">
+            <a href="https://www.facebook.com/home.php?__req=8"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/home"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/Djenebou7766"><i class="fa fa-github" aria-hidden="true"></i></a>
+           <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+
+        </div>
+    </div>
+   
+    <div class="hero">
+        <form action="label">
+            <div class="cont">
+                <label for="prenom"></label>
+                <input type="text" placeholder=" Prenom et Nom" width="100%"> <br>
+                <label for="prenom"></label>
+                <input type="text" placeholder="Email" width="100%"> <br>
+                <label for="prenom"></label>
+                <input type="text" placeholder="Sujet" width="100%"> <br>
+                <label for="prenom"></label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="     Mesage....."></textarea>
+                <button><a href="">Envoyer</a></button>    
+            </div>
+        </form>
+    </div>
+        
+    </div>
+
+    <script>
+        const menu = document.querySelector(".menu-hamb") 
+        const bar = document.querySelector(".nav-links")
+    
+        menu.addEventListener('click',()=>{
+            bar.classList.toggle('mobile-menu')
+        })
+       </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Mami.css"> 
+    
+</head>
+<body>
+   
+    <header>
+        <p id="pot">port<span>folio</span></p> 
+      <div >
+        <ul class="nav-links">
+            <li><a href="index.html">Accueille</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="projet.html">Projet</a></li>
+            <li><a href="contact2.html">Contact</a></li>
+        </ul>
+    </div>
+    <img src="img/menu.png" alt="menu hamb" class="menu-hamb" >
+    </header>
+    
+
+    <section id="home">
+      
+        <div class="main">
+             
+            <h1 class="headings">Salut!!!  Je suis</h1>
+            <h2> Djenebou Keita</h2> <span></span>
+            <h3>Etudiante en Licence2 <br> RTCOM à L’ESCT </h3>
+                
+                
+              <p>  Lorem ipusum dolor, sit amet consectur <br>
+                adipisicing elit. <br>
+                Doloribus alias natus,</p>
+                
+                
+            <button><a href="figmaPDF(1).pdf">Télécharger Mon CV</a></button>
+        </div>
+        <div class="image">
+            <img src="img/tof.jpg" alt="">
+        </div>
+    </section>
+    
+    
+   <script>
+    const menu = document.querySelector(".menu-hamb") 
+    const bar = document.querySelector(".nav-links")
+
+    menu.addEventListener('click',()=>{
+        bar.classList.toggle('mobile-menu')
+    })
+   </script>
+</body>
+</html>

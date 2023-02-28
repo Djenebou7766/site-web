@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+    <header>
+        <p id="pot">port<span>folio</span></p> 
+      <div >
+        <ul class="nav-links">
+            <li><a href="index.html">Accueille</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="projet.html">Projet</a></li>
+            <li><a href="contact2.html">Contact</a></li>
+        </ul>
+    </div>
+    <img src="img/menu.png" alt="menu hamb" class="menu-hamb" >
+    </header>
+    <section id="sercives">
+        <h1 class="haut">Mes Services</h1>
+        <div class="row">
+            <div class="box">
+              <h1 class="headings">Création des Site Web</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro itaque, cupiditate sapiente 
+                  explicabo debitis maiores. Quidem corrupti beatae dolorem quasi
+                   et iusto alias labore non corporis. Nobis modi earum eos?
+              Tempora, officiis ducimus. Suscipit possimus quae rerum sunt doloribus
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id suscipit sunt
+              aperiam labore reprehenderit dolorum? Laboriosam culpa sit possimus, minima
+             dicta hic quo ut necessitatibus ducimus nostrum laudantium, recusandae  saepe!
+              </p>
+            </div>
+            <div class="box">
+             <h1 class="headings">UX/UI Design</h1>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro itaque, cupiditate sapiente 
+                 explicabo debitis maiores. Quidem corrupti beatae dolorem quasi
+                  et iusto alias labore non corporis. Nobis modi earum eos?
+             Tempora, officiis ducimus. Suscipit possimus quae rerum sunt doloribus
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id suscipit sunt
+              aperiam labore reprehenderit dolorum? Laboriosam culpa sit possimus, minima
+             dicta hic quo ut necessitatibus ducimus nostrum laudantium, recusandae  saepe!
+             </p>
+         </div>
+         <div class="box">
+             <h1 class="headings">Création des CV en Ligne</h1>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro itaque, cupiditate sapiente 
+                 explicabo debitis maiores. Quidem corrupti beatae dolorem quasi
+                  et iusto alias labore non corporis. Nobis modi earum eos?
+             Tempora, officiis ducimus. Suscipit possimus quae rerum sunt doloribus
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id suscipit sunt
+              aperiam labore reprehenderit dolorum? Laboriosam culpa sit possimus, minima
+             dicta hic quo ut necessitatibus ducimus nostrum laudantium, recusandae  saepe!
+             </p>
+         </div>
+ 
+        </div>
+    </section> 
+    <script>
+        const menu = document.querySelector(".menu-hamb") 
+        const bar = document.querySelector(".nav-links")
+    
+        menu.addEventListener('click',()=>{
+            bar.classList.toggle('mobile-menu')
+        })
+       </script>
+</body>
+</html>

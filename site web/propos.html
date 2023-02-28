@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="propos.css">
+</head>
+<body>
+    <header>
+        <p id="pot">port<span>folio</span></p>
+      <div >
+        <ul class="nav-links">
+            <li><a href="index.html">Accueille</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="projet.html">Projet</a></li>
+            <li><a href="contact2.html">Contact</a></li>
+        </ul>
+    </div>
+    <img src="img/menu.png" alt="menu hamb" class="menu-hamb" >
+    </header>
+    <section id="about">
+        
+        <h1 class="haut">A propos de Moi</h1>
+        <div id="pic">
+        <img src="img/tof.jpg" alt="">
+        <div id="intro">
+            <h2>Djenebou Keita</h2>
+            <p class="centre">
+                je m’appelle Djenebou Keita j’ai 22 ans <br>
+                je suis Etudiante à L’ESCT (ECOLE SUPERIEURE<br>
+                DE COMMERCR ET DE TECHNOLOGIE)<br>
+                Je fais la Licence 2 Reseau Telecomminication(RTCOM)<br>
+                Je suis un suis une formation informatique à<br>
+                         IK@DEV<br>
+                (LA PASSION NUMERIQUE)<br>
+                Mon objective est de pouvoir crée des site web , de developper <br> des application
+                Lorem ipsum, dolor sit amet consectetur adipisicing<br>
+                 elit. Odio ducimus omnis illum, laborum distinctio
+                 minima dicta necessitatibus <br>
+                maxime sint, a aspernatur possimus soluta 
+                laudantium quo<br> suscipit facilis quibusdam
+                 praesentium cum.
+                Lorem ipsum dolor sit amet consectetur .
+                <br> Suscipit eius magnam maiores corporis non asperiores modi quas <br>
+                repellendus laboriosam. Eaque nulla excepturi deserunt reprehenderit<br>
+                 blanditiis quibusdam quod! Mollitia, hic accusamus?
+                </p>
+
+        </div>
+    </div>
+
+</section>
+<script>
+    const menu = document.querySelector(".menu-hamb") 
+    const bar = document.querySelector(".nav-links")
+
+    menu.addEventListener('click',()=>{
+        bar.classList.toggle('mobile-menu')
+    })
+   </script>
+</body>
+</html>

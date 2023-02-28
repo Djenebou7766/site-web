@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+    <header>
+        <p id="pot">port<span>folio</span></p>
+      <div >
+        <ul class="nav-links">
+            <li><a href="index.html">Accueille</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="projet.html">Projet</a></li>
+            <li><a href="contact2.html">Contact</a></li>
+        </ul>
+    </div>
+    <img src="img/menu.png" alt="menu hamb" class="menu-hamb" >
+    </header>
+    <section id="portfolio">
+        <h1 class="headings">Project</h1>
+        <div class="gallery">
+            <img src="img/img3.jpeg" alt="">
+            <img src="img/img4.avif" alt="">
+            <img src="img/img5.jpeg" alt="">
+            <img src="img/img6.jpeg" alt="">
+            <img src="img/img7.jpeg" alt="">
+            <img src="img/img9.jpeg" alt="">
+        </div>
+    </section>
+
+    <script>
+        const menu = document.querySelector(".menu-hamb") 
+        const bar = document.querySelector(".nav-links")
+    
+        menu.addEventListener('click',()=>{
+            bar.classList.toggle('mobile-menu')
+        })
+       </script>
+</body>
+</html>
